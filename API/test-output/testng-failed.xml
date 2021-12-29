@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="API(failed)">
+    <classes>
+      <class name="com.TopologyAPI.app.API.TopologyApiApplicationTest">
+        <methods>
+          <include name="test_queryDevicesWithNetlistNode_02"/>
+          <include name="test_deletetopology_02"/>
+        </methods>
+      </class> <!-- com.TopologyAPI.app.API.TopologyApiApplicationTest -->
+    </classes>
+  </test> <!-- API(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

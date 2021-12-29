@@ -1,0 +1,6 @@
+localhost:8080/readtopology?File=topology.json
+localhost:8080/writetopology?TopID=top1
+localhost:8080/queryTopologies
+localhost:8080/queryDevices?TopologyID=top1
+localhost:8080/queryDevicesWithNetlistNode?TopID=top1&netID=n1
+localhost:8080/deleteTopologies?TopID=top1

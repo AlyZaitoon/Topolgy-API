@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="3204" started-at="2021-12-29T01:04:03 EET" finished-at="2021-12-29T01:04:06 EET">
+    <groups>
+    </groups>
+    <test name="API" duration-ms="3204" started-at="2021-12-29T01:04:03 EET" finished-at="2021-12-29T01:04:06 EET">
+      <class name="com.TopologyAPI.app.API.TopologyApiApplicationTest">
+        <test-method status="PASS" signature="test_readtopology_01()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_readtopology_01" duration-ms="1783" started-at="2021-12-29T01:04:03 EET" finished-at="2021-12-29T01:04:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_readtopology_01 -->
+        <test-method status="PASS" signature="test_readtopology_02()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_readtopology_02" duration-ms="522" started-at="2021-12-29T01:04:04 EET" finished-at="2021-12-29T01:04:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_readtopology_02 -->
+        <test-method status="PASS" signature="test_readtopology_03()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_readtopology_03" duration-ms="19" started-at="2021-12-29T01:04:05 EET" finished-at="2021-12-29T01:04:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_readtopology_03 -->
+        <test-method status="PASS" signature="test_deletetopology_01()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_deletetopology_01" duration-ms="16" started-at="2021-12-29T01:04:05 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deletetopology_01 -->
+        <test-method status="PASS" signature="test_deletetopology_02()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_deletetopology_02" duration-ms="12" started-at="2021-12-29T01:04:05 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deletetopology_02 -->
+        <test-method status="PASS" signature="test_queryDevicesWithNetlistNode_01()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_queryDevicesWithNetlistNode_01" duration-ms="22" started-at="2021-12-29T01:04:05 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_queryDevicesWithNetlistNode_01 -->
+        <test-method status="PASS" signature="test_queryDevicesWithNetlistNode_02()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_queryDevicesWithNetlistNode_02" duration-ms="133" started-at="2021-12-29T01:04:05 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_queryDevicesWithNetlistNode_02 -->
+        <test-method status="PASS" signature="test_queryDevices_01()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_queryDevices_01" duration-ms="16" started-at="2021-12-29T01:04:05 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_queryDevices_01 -->
+        <test-method status="PASS" signature="test_queryDevices_02()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_queryDevices_02" duration-ms="593" started-at="2021-12-29T01:04:05 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_queryDevices_02 -->
+        <test-method status="PASS" signature="test_queryTopologies_01()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_queryTopologies_01" duration-ms="14" started-at="2021-12-29T01:04:06 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_queryTopologies_01 -->
+        <test-method status="PASS" signature="test_queryTopologies_02()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_queryTopologies_02" duration-ms="7" started-at="2021-12-29T01:04:06 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_queryTopologies_02 -->
+        <test-method status="PASS" signature="test_writetopology_01()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_writetopology_01" duration-ms="10" started-at="2021-12-29T01:04:06 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_writetopology_01 -->
+        <test-method status="PASS" signature="test_writetopology_02()[pri:0, instance:com.TopologyAPI.app.API.TopologyApiApplicationTest@3632be31]" name="test_writetopology_02" duration-ms="11" started-at="2021-12-29T01:04:06 EET" depends-on-methods="com.TopologyAPI.app.API.TopologyApiApplicationTest.test_readtopology_02" finished-at="2021-12-29T01:04:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_writetopology_02 -->
+      </class> <!-- com.TopologyAPI.app.API.TopologyApiApplicationTest -->
+    </test> <!-- API -->
+  </suite> <!-- Default Suite -->
+</testng-results>
